@@ -221,6 +221,7 @@ namespace Tunniplaan
             Content = grid;
 
         }
+
         public async void MoreInfo()
         {
             await DisplayAlert("Подробная информация", "Кабинет B221, Людмила Михайловна", "Закрыть");
