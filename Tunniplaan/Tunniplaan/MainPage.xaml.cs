@@ -33,8 +33,8 @@ namespace Tunniplaan
 
             //Понедельник.
             Pon = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.LightGray, Text = "Понедельник       ", FontSize = 15 };
-            grid.Children.Add(Pon, 0, 1);
-            Grid.SetColumnSpan(Pon, 2);
+                grid.Children.Add(Pon, 0, 1);
+                Grid.SetColumnSpan(Pon, 2);
          
             //Вторник.
             Vt = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.LightGray, Text = "Вторник      ", FontSize = 15 };
